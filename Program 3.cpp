@@ -234,7 +234,7 @@ void InstallmentCalculator( double bAmount )
       default:
          break;
    }
-   
+   //test
    perInstall = afterPlan / numInstall;
    cout << "With " << (int) numInstall << " installment your bill of $";
    cout << bAmount << " will be worth $" << afterPlan << '.' << endl;
